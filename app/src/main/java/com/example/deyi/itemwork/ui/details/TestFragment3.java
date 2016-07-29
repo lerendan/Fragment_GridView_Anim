@@ -1,4 +1,4 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.ui.details;
 
 
 import android.graphics.Bitmap;
@@ -13,8 +13,13 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 
+import com.example.deyi.itemwork.ui.frame.ContentActivity;
+import com.example.deyi.itemwork.bean.FragmentBean;
+import com.example.deyi.itemwork.MyApplication;
+import com.example.deyi.itemwork.R;
+
 /**
- * Created by 但超 on 2015/8/7.
+ * Created by lerendan on 2015/7/29.
  * 测试窗口界面3
  */
 public class TestFragment3 extends BaseFragment {

@@ -1,8 +1,9 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.ui.details;
 
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
+
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,38 +13,41 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 
+import com.example.deyi.itemwork.ui.frame.ContentActivity;
+import com.example.deyi.itemwork.bean.FragmentBean;
+import com.example.deyi.itemwork.MyApplication;
+import com.example.deyi.itemwork.R;
+
 /**
- * Created by 但超 on 2015/8/7.
- * 测试窗口界面2
+ * Created by lerendan on 2015/7/29.
+ * 测试窗口界面4
  */
+public class TestFragment4 extends BaseFragment {
 
-public class TestFragment2 extends BaseFragment {
-
-    private Button button2;
+    private Button button4;
     private View contentPanel;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_text2, container, false);
+        View view = inflater.inflate(R.layout.fragment_text4, container, false);
 
-        contentPanel = view.findViewById(R.id.contentPanel2);
+        contentPanel = view.findViewById(R.id.contentPanel4);
         contentPanel.setDrawingCacheEnabled(true);
-        button2 = (Button) view.findViewById(R.id.button2);
+        button4 = (Button) view.findViewById(R.id.button4);
 
         //X按钮点击事件
-        button2.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new View.OnClickListener() {
             public boolean added = false;
 
             @Override
             public void onClick(View view) {
-                String data = "测试数据2";
+                String data = "测试数据4";
                 Bitmap bmp = Bitmap.createBitmap(contentPanel.getDrawingCache());
 
                 if (bmp != null) {
-
                     FragmentBean bean = new FragmentBean();
                     bean.setKey(data);
-                    bean.setFragment(TestFragment2.this);
+                    bean.setFragment(TestFragment4.this);
 
                     for (FragmentBean temp : MyApplication.fragmentBeans) {
                         if (temp.getKey().equals(data)) {
@@ -55,6 +59,7 @@ public class TestFragment2 extends BaseFragment {
                         MyApplication.bitmapLruCache.put(data, bmp);
                         MyApplication.fragmentBeans.add(bean);
                     }
+
 //                    ((ContentActivity) getActivity()).showGridFragment();
                 }
                 smallAnim(contentPanel);
@@ -63,6 +68,7 @@ public class TestFragment2 extends BaseFragment {
 
         return view;
     }
+
 
     /**
      * 点击后缩小然后到gridview中
@@ -94,6 +100,6 @@ public class TestFragment2 extends BaseFragment {
 
     @Override
     public Fragment newInstance() {
-        return new TestFragment2();
+        return new TestFragment4();
     }
 }

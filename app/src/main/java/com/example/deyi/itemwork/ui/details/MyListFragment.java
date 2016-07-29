@@ -1,4 +1,4 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.ui.details;
 
 
 import android.os.Bundle;
@@ -11,11 +11,14 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.deyi.itemwork.ui.frame.ContentActivity;
+import com.example.deyi.itemwork.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by 但超 on 2015/8/7.
+ * Created by lerendan on 2015/7/29.
  * 列表ListFragment
  */
 public class MyListFragment extends Fragment implements AdapterView.OnItemClickListener {

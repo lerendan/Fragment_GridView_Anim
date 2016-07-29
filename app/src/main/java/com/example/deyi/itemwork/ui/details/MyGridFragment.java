@@ -1,8 +1,7 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.ui.details;
 
 
 import android.app.Activity;
-import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -17,10 +16,16 @@ import android.view.animation.ScaleAnimation;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.example.deyi.itemwork.ui.frame.ContentActivity;
+import com.example.deyi.itemwork.bean.FragmentBean;
+import com.example.deyi.itemwork.MyApplication;
+import com.example.deyi.itemwork.adapter.MyGridAdapter;
+import com.example.deyi.itemwork.R;
+
 import java.util.List;
 
 /**
- * Created by 但超 on 2015/8/7.
+ * Created by lerendan on 2015/7/29.
  * 窗口GridFragment
  */
 public class MyGridFragment extends Fragment {

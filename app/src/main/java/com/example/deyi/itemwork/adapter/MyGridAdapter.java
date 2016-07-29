@@ -1,4 +1,4 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,10 +11,14 @@ import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
+import com.example.deyi.itemwork.MyApplication;
+import com.example.deyi.itemwork.R;
+import com.example.deyi.itemwork.bean.FragmentBean;
+
 import java.util.List;
 
 /**
- * Created by 但超 on 2015/7/29.
+ * Created by lerendan on 2015/7/29.
  * GridView的适配器
  */
 public class MyGridAdapter extends BaseAdapter {

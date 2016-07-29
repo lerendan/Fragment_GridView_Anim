@@ -1,9 +1,9 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.ui.details;
 
 import android.support.v4.app.Fragment;
 
 /**
- * Created by 但超 on 2015/8/6.
+ * Created by lerendan on 2015/7/29.
  */
 public  abstract  class BaseFragment extends  Fragment {
 

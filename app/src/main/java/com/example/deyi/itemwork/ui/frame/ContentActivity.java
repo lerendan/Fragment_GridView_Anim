@@ -1,12 +1,15 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.ui.frame;
 
-import android.graphics.Rect;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
+
+import com.example.deyi.itemwork.R;
+import com.example.deyi.itemwork.ui.details.MyGridFragment;
+import com.example.deyi.itemwork.ui.details.MyListFragment;
 
 import java.util.HashMap;
 import java.util.List;

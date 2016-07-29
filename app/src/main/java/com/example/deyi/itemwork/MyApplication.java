@@ -2,11 +2,13 @@ package com.example.deyi.itemwork;
 
 import android.app.Application;
 
+import com.example.deyi.itemwork.bean.FragmentBean;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by 但超 on 2015/7/29.
+ * Created by lerendan on 2015/7/29.
  */
 public class MyApplication extends Application {
 

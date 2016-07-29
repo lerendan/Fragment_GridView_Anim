@@ -1,10 +1,10 @@
-package com.example.deyi.itemwork;
+package com.example.deyi.itemwork.bean;
 
 
 import android.support.v4.app.Fragment;
 
 /**
- * Created by 但超 on 2015/7/29.
+ * Created by lerendan on 2015/7/29.
  */
 public class FragmentBean {
 
