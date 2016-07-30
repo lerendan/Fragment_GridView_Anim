@@ -1,2 +1,2 @@
 ###Fragment_GridView_Anim
-new word
+![][https://github.com/lerendan/Fragment_GridView_Anim/blob/master/picture/first.gif]
