@@ -1,3 +1,6 @@
 ###Fragment_GridView_Anim
 ![](https://github.com/lerendan/Fragment_GridView_Anim/blob/master/picture/first.gif)
-Ê×Ò³µÄFragmentÊÇÒ»¸ölistview£¬µã»÷item½øÈë¶ÔÓ¦µÄFragment£¬È»ºóµã»÷ÓÒÉÏ½ÇµÄX°´Å¥¾Í»á×îĞ¡»¯£¬²¢½«½çÃæ±£´æ³ÉÒ»¸öÍ¼Æ¬£¬È»ºóÌø×ªµ½gridviewÖĞ£¬gridviewÖĞÏÔÊ¾ËùÓĞ×îĞ¡»¯µÄÄÚÈİfragment¡£µã»÷Ã¿¸öitemÓÒÉÏ½ÇµÄºìXÉ¾³ıitem¡£
+
+é¦–é¡µçš„Fragmentæ˜¯ä¸€ä¸ªlistviewï¼Œç‚¹å‡»itemè¿›å…¥å¯¹åº”çš„Fragmentã€‚
+ç„¶åç‚¹å‡»å³ä¸Šè§’çš„XæŒ‰é’®å°±ä¼šæœ€å°åŒ–ï¼Œå¹¶å°†ç•Œé¢ä¿å­˜æˆä¸€ä¸ªå›¾ç‰‡ï¼Œç„¶åè·³è½¬åˆ°gridviewä¸­ã€‚
+gridviewä¸­æ˜¾ç¤ºæ‰€æœ‰æœ€å°åŒ–çš„å†…å®¹fragmentã€‚ç‚¹å‡»æ¯ä¸ªitemå³ä¸Šè§’çš„çº¢Xåˆ é™¤itemã€‚
